@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.23.2-alpine
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 COPY kubernetes-goat.png /usr/share/nginx/html/kubernetes-goat.png
